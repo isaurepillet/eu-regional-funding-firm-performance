@@ -2,7 +2,7 @@
 
 This repository contains code from an applied research project studying firms receiving **European Regional Development Fund (FEDER/ERDF)** support and constructing a comparable group of non-recipient firms.
 
-The project combines information on FEDER-funded projects with longitudinal firm-level financial data. The empirical workflow focuses on preparing treated and control samples and preparing a matching-based comparison of recipient and non-recipient firms before analysing outcomes around the receipt of funding.
+The project combines information on FEDER-funded projects with longitudinal firm-level financial data. The empirical workflow focuses on constructing treated and control samples and preparing a matching-based comparison of recipient and non-recipient firms before analysing outcomes around the receipt of funding.
 
 ## Empirical workflow
 
