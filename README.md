@@ -2,7 +2,7 @@
 
 This repository contains code from an applied research project studying firms receiving **European Regional Development Fund (FEDER/ERDF)** support and constructing a comparable group of non-recipient firms.
 
-The project combines information on FEDER-funded projects with longitudinal firm-level financial data. The empirical workflow focuses on preparing treated and control samples and implementing **propensity score matching (PSM)** before comparing firm outcomes around the receipt of funding.
+The project combines information on FEDER-funded projects with longitudinal firm-level financial data. The empirical workflow focuses on preparing treated and control samples and preparing a matching-based comparison of recipient and non-recipient firms before analysing outcomes around the receipt of funding.
 
 ## Empirical workflow
 
@@ -13,14 +13,14 @@ The notebooks document:
 - construction of relative time around the year in which funding was received;
 - definition of treated and untreated firms;
 - construction of pre-treatment characteristics;
-- propensity score matching using comparable control firms;
-- balance and sample-comparability checks.
+- preparation of comparable treated and control samples;
+- exploratory nearest-neighbour / standardisation code for the matching stage.
 
 ## Main notebooks
 
 - **`data/code.ipynb`** — preparation and matching of the underlying firm-level datasets;
 - **`data/PSM_preparation.ipynb`** — construction of the treated and control samples and preparation for matching;
-- **`data/psmok.ipynb`** — propensity score matching and related diagnostics.
+- **`data/psmok.ipynb`** — exploratory matching code using standardised covariates and nearest-neighbour tools.
 
 ## Data
 
@@ -30,7 +30,7 @@ The notebooks therefore preserve the empirical workflow but are **not fully repr
 
 ## Tools and methods
 
-Python · pandas · statsmodels · scikit-learn · panel data · propensity score matching · policy evaluation
+Python · pandas · statsmodels · scikit-learn · panel data · matching · policy evaluation
 
 ## Reproducibility note
 
